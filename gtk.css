@@ -1,0 +1,20 @@
+TerminalWindow,
+TerminalWindow.background {
+  background-color: #383734;
+}
+
+TerminalWindow .notebook {
+  border-width: 0;  /* extra border around the terminal body with gray color               */
+  padding: 0;       /* thickness of border width around terminal body, including under tab */
+  background: #000; /* color of padding around terminal body                               */
+  color: #ffffff;
+}
+
+TerminalWindow .notebook tab {
+  background: #383734;
+  padding: 3px;
+}
+
+TerminalWindow .notebook tab:active {
+  background: #4a4943;
+}
